@@ -1,0 +1,75 @@
+.mainBody{
+    font-family: 'Arial', sans-serif;
+    background-color: #e24278;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.headStyle {
+    background-color: #e22665;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.about-me {
+      
+    text-align: left;
+    margin-bottom: 20px;
+   
+}
+
+.about-me img {     
+      max-width: 20%;
+      border-radius: 8px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+  }
+
+.section {
+    margin-bottom: 20px;
+}
+
+.h2, .h3 {
+    color: #000000;
+}
+
+.h1, h4{
+      color: #fcf9f9;
+}
+
+.h2 {
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+}
+
+.project {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.footer {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+}
