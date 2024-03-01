@@ -1,0 +1,23 @@
+#box{
+    border: 2px solid;
+    width: 230px;
+    height: 125px;
+    font-size: 120px;
+    text-align: center;
+    animation: 3s linear 0s infinite running Animation1;
+}
+#myBox{
+    border: 2px solid;
+    width: 250px;
+    height: 130px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(174, 222, 235);
+}
+@keyframes Animation1{
+    0%{background-color: azure;}
+    25%{background-color: rgb(220, 213, 15);}
+    50%{background-color: rgb(115, 216, 72);}
+    75%{background-color: rgb(100, 26, 174);}
+    100%{background-color: rgb(220, 59, 88);}  
+}

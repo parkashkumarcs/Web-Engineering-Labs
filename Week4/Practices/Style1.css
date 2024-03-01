@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#myContainer {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #92a1f8;
+    border-radius: 5px;
+    background-color: powderblue;
+}
+
+#myContainer1 {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #e96464;
+    border-radius: 5px;
+    background-color: rgb(122, 255, 88);
+}
+
+.myTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.myTable th, .myTable td {
+    border: 5px solid #5cbd0d;
+    padding: 8px;
+    text-align: left;
+    background-color: #c933a8;
+}
+
+.myTable th {
+    background-color: #928f8f;
+}

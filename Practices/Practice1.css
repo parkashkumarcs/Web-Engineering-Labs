@@ -1,0 +1,16 @@
+p{
+    padding: 10px 20px;
+    border: 5px solid rgb(251, 255, 7);
+    height: 120px;
+}
+.box1{
+    background-color: rgb(185, 233, 233);
+}
+.box2{
+    background-color: rgb(243, 191, 191);
+    width: 300px;
+    height: 150px;
+}
+.table{
+    background-color: aqua;
+}

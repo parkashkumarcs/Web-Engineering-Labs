@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#myContainer {
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid #2546ff;
+    border-radius: 5px;
+    background-color: powderblue;
+}

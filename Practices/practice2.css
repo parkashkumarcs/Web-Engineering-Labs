@@ -1,0 +1,19 @@
+.head1{
+    font-size: 40px;
+    color: #009900;
+    font-weight: bold;
+}
+.head2{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+body{
+    margin: 0;
+    background-position: center;
+    background-size: contain;
+}
+
+.menu{
+    position: sticky;
+}
