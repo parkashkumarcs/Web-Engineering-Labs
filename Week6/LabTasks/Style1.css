@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#Container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 4px solid yellowgreen;
+    background-color: rgb(208, 248, 255);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#result-message {
+    margin-top: 20px;
+    font-weight: bold;
+}
