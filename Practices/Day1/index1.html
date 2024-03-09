@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #overview{
+            border: 2px solid;
+            width: 230px;
+            height: 125px;
+            font-size: 120px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        const originalArray=[400,300,800,100];
+        function myFunc(numb){
+            return numb*10;
+        }
+        let name;
+        name="Hello world!";
+        const newArray=originalArray.map(myFunc);
+        document.getElementById("myL").innerHTML=name;
+
+        let word;
+        word="Hello world!";
+        document.getElementById("myLabel").innerHTML=word;
+    </script>
+</head>
+<body>
+    <div id="overview">
+        <label id="myLabel">Parkash Kumar</label>
+    </div>
+</body>
+</html>

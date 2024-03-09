@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Animated Text</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .animated-text {
+      font-size: 36px;
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
+      color: #3498db;
+      position: absolute;
+      animation: moveText 5s linear infinite;
+    }
+
+    @keyframes moveText {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(50px); }
+      50% { transform: translateX(0); }
+      75% { transform: translateX(-50px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="animated-text">Professional Animated Text</div>
+  </div>
+</body>
+</html>

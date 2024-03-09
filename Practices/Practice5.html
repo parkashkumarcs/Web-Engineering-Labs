@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image_Video Practice</title>
+    <style>
+        .imageSize{
+            width: 602px;
+            height: 200px;
+            border: 5px solid rgb(39, 226, 48);
+            display: flex;
+        }
+        .myImage{
+            width: 300px;
+            height: 200px;
+            margin-left: 1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Customize Image</h1>
+    <div class="imageSize">
+        <img class="myImage" src="tree.jpg" alt="tree image">
+        <img class="myImage" src="tree.jpg" alt="tree image">
+    </div>
+    <br><br>
+    <img class="myImage" src="tree.jpg" alt="tree image">
+    <br><br>
+    <video width="1040" height="860" autoplay loop>
+        <source src="vegeta.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <br><br>
+    <h1>Fixed size: width 1920 height 1195</h1>
+    <img src="tree.jpg" alt="tree image" width="1920" height="1195">
+    <br>
+    <h1>Enlarged: width 2160 (no height specified)</h1>
+    <img src="tree.jpg" alt="tree image" width="2160">
+    <br>
+    <h1>Stretched: width 1680 height 1400</h1>
+    <img src="tree.jpg" alt="tree image" width="1680" height="1400">
+
+</body>
+</html>

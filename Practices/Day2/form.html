@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" minlength="6" maxlength="10" placeholder="username" required><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="John@gmail.com" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" minlength="6" maxlength="50" placeholder="password" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="number" id="phone" placeholder="xxx-xxxxxxxx" pattern="[0-9]{3}-[0-9]{8}"><br>
+
+        <label for="bday">Birthday:</label>
+        <input type="date" id="bday"><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="1" min="0" max="99"><br>
+
+        <label for="city">City:</label>
+        
+        <label for="sukkur">Sukkur</label>
+        <input type="radio" id="sukkur" value="sukkur" name="city">
+        <label for="lahor">Lahor</label>
+        <input type="radio" id="lahor" value="lahor" name="city">
+        <label for="mpk">Mirpurkhas</label>
+        <input type="radio" id="mpk" value="mpk" name="city">
+        <label for="hyd">Hyderabad</label>
+        <input type="radio" id="hyd" value="hyd" name="city">
+        <br>
+
+        <label for="state">State:</label>
+        <select id="state">
+            <option value="sindh">Sindh</option>
+            <option value="kpk">KPK</option>
+            <option value="punjab">Punjab</option>
+            <option value="baloach">Baloachistan</option>
+            <option value="fata">FATA</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        
+        <label for="message">Message:</label><br>
+        <textarea type="comment" id="message" rows="7" cols="50" maxlength="100" placeholder="100"></textarea>
+
+        <br>
+        <label for="file">File</label>
+        <input type="file" id="file" accept="image/png, image/jpg">
+        <br>
+
+        <label for="accept"><b>Agree</b></label>
+        <input type="checkbox" id="accept">
+        <br>
+        <label for="accept"><b>Not a robot</b></label>
+        <input type="checkbox" id="accept">
+
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+
+    </form>
+</body>
+</html>
