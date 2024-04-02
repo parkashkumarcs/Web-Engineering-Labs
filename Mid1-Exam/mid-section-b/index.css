@@ -28,3 +28,6 @@ nav{
     display: flex;
     flex-wrap: wrap;
 }
+button{
+    border: 0px;
+}
