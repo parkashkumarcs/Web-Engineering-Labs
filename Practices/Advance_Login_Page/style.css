@@ -12,27 +12,22 @@
   align-items: center;
   height:100vh;
   width:100%;
-  background:url('http://codingstella.com/wp-content/uploads/2024/01/download-5.jpeg') no-repeat;
-  background-size:cover;
-  background-position:center;
-  animation:animateBg 5s linear infinite;
-}
-@keyframes animateBg {
-  100% {
-    filter:hue-rotate(360deg);
-  }
+  background: url('img4.jpg') no-repeat;
+  background-size: cover;
+  
 }
 .login-box {
   position: relative;
   width: 400px;
-  height: 450px;
+  height: 550px;
   background: transparent;
   border-radius: 15px;
   border: 2px solid rgba(255,255,255,.5);
   display: flex;
+ 
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(55px);
 }
 h2 {
   font-size:2em;
@@ -85,13 +80,16 @@ h2 {
 }
 .remember-forgot label input {
   margin-right:3px;
+  
 }
 .remember-forgot a {
   color:#fff;
   text-decoration:none;
+  font-weight:600;
 }
 .remember-forgot a:hover {
   text-decoration:underline;
+  color: blue;
 }
 button {
   width:100%;
@@ -103,6 +101,10 @@ button {
   font-size:1em;
   color:#000;
   font-weight:500;
+}
+button:hover{
+  background: rgb(8, 107, 238);
+  color: #fff;
 }
 .register-link {
   font-size:.9em;
@@ -117,6 +119,7 @@ button {
 }
 .register-link p a:hover {
   text-decoration:underline;
+  color: blue;
 }
 @media (max-width:500px) {
   .login-box {
@@ -128,4 +131,60 @@ button {
   .input-box {
     width:290px;
   }
+}
+/* Add this style for the image container */
+.image-container {
+  position: relative;
+  width: 700px;
+  height: 550px;
+  margin: 60px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+}
+
+.image-container img {
+  width: 700px;
+  height: 550px;
+  border-radius: 5px;
+ 
+}
+
+/* Adjust login box position */
+.login-box {
+  position: relative;
+  z-index: 1;
+}
+.logo-box{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin: 80px;
+  gap: 15px ;
+  color: blue;
+ 
+}
+.logo-img{
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+.logbox{
+  position: fixed;
+    top: 0;
+    left: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin: 20px;
+  color: blue;
+ 
+}
+i{
+  font-size: 50px;
+  color: rgb(4, 167, 17);
 }
