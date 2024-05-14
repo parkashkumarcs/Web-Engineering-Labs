@@ -3,46 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="mySheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">PK@</a>
+        <div class="log">
+            <i class='bx bxs-leaf'></i>
+            <a href="#" class="logo">PK@</a>
+        </div>
         <nav class="navbar">
             <a href="home.html">About Me</a>
             <a href="project.html" class="active">Projects</a>
             <a href="skill.html">Skills</a>
-            <a href="#">Profession</a>
-            <a href="#">Contact</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
     <h1>Hi,</h1>
-   <section class="home">
-    
-    <div class="home-content">
-        <h1>Hi,</h1>
-        <p>
-            <b class="bold">With</b> over five years of professional experience in web development, I bring a wealth of expertise to 
-            every project I undertake. My journey in this dynamic field has equipped me with a deep understanding 
-            of various programming languages, frameworks, and design principles. From crafting visually stunning user 
-            interfaces to implementing robust backend functionalities, I thrive on bringing ideas to life in the 
-            digital realm. With a keen eye for detail and a passion for staying abreast of the latest technologies, 
-            I am committed to delivering high-quality, innovative solutions that exceed client expectations. Explore 
-            my portfolio to witness the culmination of my dedication and creativity in transforming concepts into 
-            captivating web experiences.
-        </p>
-        <table style="border:2px solid red; border-collapse: collapse;">
-            <th>Super</th>
-            <th>Super</th>
-            <tr>
-                <td>qw;lej</td>
-                <td>sakhd</td>
-            </tr>
-        </table>
-    </div>
-    
-    
-</section>
+    <section class="projects">
+        <div class="container">
+            <div class="project">
+                <div class="hBox">
+                    <i class='bx bxs-donate-blood'></i>
+                <h2>Blood Bank Management</h2>
+                </div>
+                <p>A comprehensive system designed to manage the inventory of blood units, donor information, 
+                    blood requests, and blood transfusion records. It helps blood banks efficiently track and 
+                    distribute blood donations to meet the needs of patients.</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project">
+                <div class="hBox">
+                    <i class='bx bxs-calculator' ></i>
+                <h2>Scientific Calculator</h2>
+                </div>
+                <p>An advanced calculator designed to perform complex mathematical calculations, including 
+                    trigonometric functions, logarithms, exponentials, and more. It provides a user-friendly 
+                    interface and accurate results for scientific and engineering calculations.</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project">
+                <div class="hBox">
+                <i class='bx bx-library' ></i>
+                <h2>Library Management System</h2>
+                </div>
+                <p>A software solution tailored for libraries to automate and streamline their operations. 
+                    It allows librarians to manage books, patrons, borrowing, returning, reservations, 
+                    and other library services efficiently, enhancing the overall library experience for 
+                    both staff and users.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
 </body>
 </html>

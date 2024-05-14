@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: rgb(10, 169, 212);
+}
+
+.skill-bar {
+    background-color: #eee;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.skill-level {
+    background-color:rgb(10, 169, 212);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    line-height: 20px;
+    padding: 0 10px;
+}
+.hBox{
+    display: flex;
+    flex-direction: row;
+    gap:5px
+}
+.hBox i{
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+}

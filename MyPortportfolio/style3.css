@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.experience-section {
+    padding: 50px 0;
+}
+
+.experience {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    
+}
+
+.experience h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: rgb(10, 169, 212);
+}
+.experience p {
+    color: rgb(0, 0, 0);
+}
+.experience h3 {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.experience .date {
+    font-style: italic;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+.hBox{
+    display: flex;
+    flex-direction: row;
+    gap:5px
+}
+.hBox i{
+    color: rgb(10, 169, 212);
+    font-size: 25px;
+}

@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #2d30f5;
+    --primary-color: #f52d69;
     --secondary-color: #57B894;
     --black: #000000;
     --white: #ffffff;
@@ -31,6 +31,7 @@ body {
     position: relative;
     min-height: 100vh;
     overflow: hidden;
+    border: 3px solid green;
 }
 
 .row {
@@ -53,6 +54,7 @@ body {
 .form-wrapper {
     width: 100%;
     max-width: 28rem;
+  
 }
 
 .form {
@@ -64,6 +66,7 @@ body {
     transform: scale(0);
     transition: .5s ease-in-out;
     transition-delay: 1s;
+    border: 4px solid blue;
 }
 
 .input-group {
@@ -140,6 +143,8 @@ body {
 
 .social-list>div:nth-child(1) {
     transition-delay: 1.4s;
+    
+
 }
 
 .social-list>div:nth-child(2) {
@@ -165,6 +170,7 @@ body {
 
 .facebook-bg {
     background-color: var(--facebook-color);
+    
 }
 
 .google-bg {
@@ -255,6 +261,7 @@ body {
     right: 0;
     height: 100vh;
     width: 300vw;
+    border: 4px solid rgb(18, 219, 255);
     transform: translate(35%, 0);
     background-image: linear-gradient(-45deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     transition: 1s ease-in-out;

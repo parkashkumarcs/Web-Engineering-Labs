@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(45deg, #614b0f, #740e0e);
+    
     color: aliceblue;
   
 }
@@ -41,13 +42,18 @@ body{
     font-size: 20px;
     text-decoration: none;
     font-weight: 600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .navbar a:hover, 
 .navbar a.active{
-    color: rgb(255, 255, 255);
-    background: rgb(226, 1, 31);
-    border: 1px solid rgb(84, 255, 246);
-    border-radius: 0px;
+    border-radius: 4px;
+    background: linear-gradient(45deg, #25c4f5, #00b7ff);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 
 }
 .home{
@@ -104,6 +110,8 @@ body{
 .btn-box a:nth-child(2){
     background: transparent;
     color: rgb(255, 255, 255);
+    border: 3px solid rgb(10, 169, 212);
+   
 }
 .btn-box a:nth-child(2)::before{
     background: rgb(10, 169, 212);
@@ -116,7 +124,7 @@ body{
     left: 0;
     width: 0;
     height: 100%;
-    background: rgb(24, 57, 66);
+    background: rgb(90, 60, 5);
     z-index: -1;
     transition: .3s;
 }
@@ -155,6 +163,10 @@ img{
     width: 500px;
 }
 .bold{
+    font-size: 30px;
+    color: rgb(10, 169, 212);
+}
+.log i{
     font-size: 30px;
     color: rgb(10, 169, 212);
 }
