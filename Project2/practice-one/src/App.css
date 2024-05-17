@@ -1,0 +1,54 @@
+header{
+  width: 1337px;
+  height: 70px;
+  background: green;
+  
+}
+section{
+  width: 1337px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+footer{
+  width: 1337px;
+  background: yellow;
+  height: 70px;
+}
+.centerCont{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.left-container{
+  height: 100%;
+  width: 20%;
+  background: rgb(116, 99, 4);
+}
+.center-container1{
+  width: 100%;
+  height: 50%;
+  background: rgb(199, 78, 78);
+}
+.center-container2{
+  width: 100%;
+  height: 50%;
+  background: rgb(46, 135, 218);
+}
+.rightCont{
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.right-container1{
+  height: 50%;
+  width: 100%;
+  background: rgb(218, 21, 175);
+}
+.right-container2{
+  height: 50%;
+  width: 100%;
+  background: rgb(21, 231, 126);
+}

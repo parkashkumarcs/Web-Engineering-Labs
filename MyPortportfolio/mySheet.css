@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(45deg, #614b0f, #740e0e);
+    background: linear-gradient(45deg, #614b0f, #4e3719);
     
     color: aliceblue;
   
@@ -124,7 +124,7 @@ body{
     left: 0;
     width: 0;
     height: 100%;
-    background: rgb(90, 60, 5);
+    background: rgb(100, 70, 14);
     z-index: -1;
     transition: .3s;
 }

@@ -12,7 +12,7 @@
   align-items: center;
   height:100vh;
   width:100%;
-  background: url('img4.jpg') no-repeat;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
   background-size: cover;
   
 }
@@ -133,26 +133,7 @@ button:hover{
   }
 }
 /* Add this style for the image container */
-.image-container {
-  position: relative;
-  width: 700px;
-  height: 550px;
-  margin: 60px;
-  background: transparent;
-  border-radius: 5px;
-  border: 1px solid rgba(255,255,255,.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  backdrop-filter: blur(15px);
-}
 
-.image-container img {
-  width: 700px;
-  height: 550px;
-  border-radius: 5px;
- 
-}
 
 /* Adjust login box position */
 .login-box {
@@ -173,18 +154,8 @@ button:hover{
   height: 50px;
   background-size: cover;
 }
-.logbox{
-  position: fixed;
-    top: 0;
-    left: 0;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  margin: 20px;
-  color: blue;
- 
-}
+
 i{
   font-size: 50px;
-  color: rgb(4, 167, 17);
+  color: rgb(255, 255, 255);
 }
