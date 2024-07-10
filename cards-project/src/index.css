@@ -1,0 +1,25 @@
+.card{
+  border: 1px solid hsla(0, 1%, 21%, 0.863);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 3%, 7%, 0.336);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+
+
+}
+.card .card-image{
+  max-width: 70%;
+  border-radius: 50%;
+  height: auto;
+}
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}

@@ -1,0 +1,224 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Queue",
+            "request": "launch",
+            "mainClass": "Queue",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "LinkedStack",
+            "request": "launch",
+            "mainClass": "LinkedStack",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPractice",
+            "request": "launch",
+            "mainClass": "ArrayPractice",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "LL",
+            "request": "launch",
+            "mainClass": "LL",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "SinglyList",
+            "request": "launch",
+            "mainClass": "SinglyList",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task1",
+            "request": "launch",
+            "mainClass": "Task1",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task2",
+            "request": "launch",
+            "mainClass": "Task2",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task3",
+            "request": "launch",
+            "mainClass": "Task3",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task4",
+            "request": "launch",
+            "mainClass": "Task4",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task5",
+            "request": "launch",
+            "mainClass": "Task5",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task6",
+            "request": "launch",
+            "mainClass": "Task6",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task7",
+            "request": "launch",
+            "mainClass": "Task7",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task8",
+            "request": "launch",
+            "mainClass": "Task8",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "BinaryRecursive",
+            "request": "launch",
+            "mainClass": "Week10.BinaryRecursive",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Week10.Factorial",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task3(1)",
+            "request": "launch",
+            "mainClass": "Week10.Task3",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task4(1)",
+            "request": "launch",
+            "mainClass": "Week10.Task4",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task5(1)",
+            "request": "launch",
+            "mainClass": "Week10.Task5",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task1(1)",
+            "request": "launch",
+            "mainClass": "Week8.Task1",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task2(1)",
+            "request": "launch",
+            "mainClass": "Week8.Task2",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task3(2)",
+            "request": "launch",
+            "mainClass": "Week8.Task3",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task4(2)",
+            "request": "launch",
+            "mainClass": "Week8.Task4",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task5(2)",
+            "request": "launch",
+            "mainClass": "Week8.Task5",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListQueue",
+            "request": "launch",
+            "mainClass": "Week9.LinkedListQueue",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "MyStack",
+            "request": "launch",
+            "mainClass": "Week9.MyStack",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "QueueUsingStacks",
+            "request": "launch",
+            "mainClass": "Week9.QueueUsingStacks",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task1(2)",
+            "request": "launch",
+            "mainClass": "Week9.Task1",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task5(3)",
+            "request": "launch",
+            "mainClass": "Week9.Task5",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task6(1)",
+            "request": "launch",
+            "mainClass": "Week9.Task6",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        },
+        {
+            "type": "java",
+            "name": "Task7(1)",
+            "request": "launch",
+            "mainClass": "Week9.Task7",
+            "projectName": "Web-Engineering-Labs_e6f1e129"
+        }
+    ]
+}
